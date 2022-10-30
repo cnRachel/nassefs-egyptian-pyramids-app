@@ -5,42 +5,57 @@ import org.json.simple.*;
 
 public class App {
 
-  static HashSet<String> pyramidHistory = new HashSet<String>();
 
-  static String pharaohFile =
-    "C:/Users/rache/Documents/GitHub/nassefs-egyptian-pyramids-app/pyramids/src/main/java/com/example/Pharaoh.java";
-  static JSONArray pharaohJSONArray = JSONFile.readArray(pharaohFile);
+  // I've used two arrays here for O(1) reading of the pharaohs and pyramids.
+  // other structures or additional structures can be used
+  protected Pharaoh[] pharaohArray;
+  protected Pyramid[] pyramidArray;
 
-  // create and intialize the pharaoh array
-  static Pharaoh[] pharaohArray = initializePharaoh(pharaohJSONArray);
-
-  // read pyramids
-  static String pyramidFile =
-    "C:/Users/rache/Documents/GitHub/nassefs-egyptian-pyramids-app/pyramids/src/main/java/com/example/pyramid.json";
-  static JSONArray pyramidJSONArray = JSONFile.readArray(pyramidFile);
-
-  // create and initialize the pyramid array
-  static Pyramid[] pyramidArray = initializePyramid(pyramidJSONArray);
   public static void main(String[] args) {
+    // create and start the app
+    App app = new App();
+    app.start();
+  }
+
+  // main loop for app
+  public void start() {
     Scanner scan = new Scanner(System.in);
     Character command = '_';
 
+    // loop until user quits
     while (command != 'q') {
       printMenu();
       System.out.print("Enter a command: ");
       command = menuGetCommand(scan);
+
       executeCommand(scan, command);
     }
-
-    scan.close();
-    
   }
 
+  // constructor to initialize the app and read commands
+  public App() {
+    // read egyptian pharaohs
+    String pharaohFile =
+      "C:/Users/rache/Documents/GitHub/nassefs-egyptian-pyramids-app/pyramids/src/main/java/com/example/pharaoh.json";
+    JSONArray pharaohJSONArray = JSONFile.readArray(pharaohFile);
+
+    // create and intialize the pharaoh array
+    initializePharaoh(pharaohJSONArray);
+
+    // read pyramids
+    String pyramidFile =
+      "C:/Users/rache/Documents/GitHub/nassefs-egyptian-pyramids-app/pyramids/src/main/java/com/example/pyramid.json";
+    JSONArray pyramidJSONArray = JSONFile.readArray(pyramidFile);
+
+    // create and initialize the pyramid array
+    initializePyramid(pyramidJSONArray);
+
+  }
 
   // initialize the pharaoh array
-  private static Pharaoh[] initializePharaoh(JSONArray pharaohJSONArray) {
+  private void initializePharaoh(JSONArray pharaohJSONArray) {
     // create array and hash map
-    Pharaoh[] pharaohArr = new Pharaoh[pharaohJSONArray.size()];
+    pharaohArray = new Pharaoh[pharaohJSONArray.size()];
 
     // initalize the array
     for (int i = 0; i < pharaohJSONArray.size(); i++) {
@@ -57,16 +72,14 @@ public class App {
 
       // add a new pharoah to array
       Pharaoh p = new Pharaoh(id, name, begin, end, contribution, hieroglyphic);
-      pharaohArr[i] = p;
+      pharaohArray[i] = p;
     }
-
-    return pharaohArr;
   }
 
     // initialize the pyramid array
-    private static Pyramid[] initializePyramid(JSONArray pyramidJSONArray) {
+    private void initializePyramid(JSONArray pyramidJSONArray) {
       // create array and hash map
-      Pyramid[] pyramidArr = new Pyramid[pyramidJSONArray.size()];
+      pyramidArray = new Pyramid[pyramidJSONArray.size()];
   
       // initalize the array
       for (int i = 0; i < pyramidJSONArray.size(); i++) {
@@ -85,14 +98,12 @@ public class App {
   
         // add a new pyramid to array
         Pyramid p = new Pyramid(id, name, contributors);
-        pyramidArr[i] = p;
+        pyramidArray[i] = p;
       }
-
-      return pyramidArr;
     }
 
   // get a integer from a json object, and parse it
-  private static Integer toInteger(JSONObject o, String key) {
+  private Integer toInteger(JSONObject o, String key) {
     String s = o.get(key).toString();
     Integer result = Integer.parseInt(s);
     return result;
@@ -113,7 +124,7 @@ public class App {
   }
 
   // print all pharaohs
-  private static void printAllPharaoh() {
+  private void printAllPharaoh() {
     for (int i = 0; i < pharaohArray.length; i++) {
       printMenuLine();
       pharaohArray[i].print();
@@ -121,7 +132,7 @@ public class App {
     }
   }
 
-  private static Boolean executeCommand(Scanner scan, Character command) {
+  private Boolean executeCommand(Scanner scan, Character command) {
     Boolean success = true;
 
     switch (command) {
@@ -157,6 +168,10 @@ public class App {
     System.out.printf("Command\t\tDescription\n");
     System.out.printf("-------\t\t---------------------------------------\n");
     printMenuCommand('1', "List all the pharoahs");
+    printMenuCommand('2', "Displays a specific Egyptian pharaoh");
+    printMenuCommand('3', "List all the pyramids");
+    printMenuCommand('4', "Displays a specific pyramid");
+    printMenuCommand('5', "Displays a list of requested pyramids");
     printMenuCommand('q', "Quit");
     printMenuLine();
   }
