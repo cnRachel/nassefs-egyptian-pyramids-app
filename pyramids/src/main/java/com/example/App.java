@@ -11,6 +11,8 @@ public class App {
   protected Pharaoh[] pharaohArray;
   protected Pyramid[] pyramidArray;
 
+  static HashSet<String> requestedPyramids = new HashSet<String>();
+
   public static void main(String[] args) {
     // create and start the app
     App app = new App();
@@ -119,7 +121,6 @@ public class App {
       rawInput = rawInput.toLowerCase();
       command = rawInput.charAt(0);
     }
-
     return command;
   }
 
@@ -138,6 +139,24 @@ public class App {
     switch (command) {
       case '1':
         printAllPharaoh();
+        break;
+      case '2':
+        System.out.print("Enter a pharoah id: ");
+        String requestedId;
+        if (scan.hasNextInt()) {
+          requestedId = scan.nextLine();
+          Integer id = Integer.parseInt(requestedId);
+          if (id > 171 || id < 0) {
+            System.out.println("ERROR: Unknown pharaoh");
+          } else {
+            printMenuLine();
+            pharaohArray[id].print();
+          }
+        } else {
+          System.out.println("Invalid input. Please try again.");
+          System.out.println();
+        }
+        
         break;
       case 'q':
         System.out.println("Thank you for using Nassef's Egyptian Pyramid App!");
