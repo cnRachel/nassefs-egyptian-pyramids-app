@@ -1,0 +1,1378 @@
+[
+    {
+        "id": 0,
+        "name": "Zanakht",
+        "begin": "2575",
+        "end": "2649",
+        "contribution": 2712,
+        "hieroglyphic": "b9dab05ae578b7d7b54fd0a4cd1b4ccce923d28113971f009d7d89e0d23152e7"
+    },
+    {
+        "id": 1,
+        "name": "Djoser",
+        "begin": "2630",
+        "end": "2649",
+        "contribution": 3205,
+        "hieroglyphic": "9d27c39e606dbfbad931360f1d8f33546146eb5a0d8799d5efa244eceec1ebc4"
+    },
+    {
+        "id": 2,
+        "name": "Sekhemkhet",
+        "begin": "2611",
+        "end": "2630",
+        "contribution": 4666,
+        "hieroglyphic": "4a6fdd5e96b7449097065b3fed445ef2892d9c32e80186809c307da43e08dd4d"
+    },
+    {
+        "id": 3,
+        "name": "Khaba",
+        "begin": "2605",
+        "end": "2611",
+        "contribution": 7135,
+        "hieroglyphic": "56cf3c7f3b87568efbc689b6044a6d6c61c7894ce84729123bfe8c913d58467e"
+    },
+    {
+        "id": 4,
+        "name": "Huni",
+        "begin": "2599",
+        "end": "2605",
+        "contribution": 5972,
+        "hieroglyphic": "341affa225376bbcdf96bab41c11b8a39fcaec644c5b0e8618b9d7d025dc7eb4"
+    },
+    {
+        "id": 5,
+        "name": "Snefru",
+        "begin": "2465",
+        "end": "2575",
+        "contribution": 4487,
+        "hieroglyphic": "a57065f8898c2b2b7994f7680b82576fe0f76497749c4509ef985cbf606facd1"
+    },
+    {
+        "id": 6,
+        "name": "Khufu",
+        "begin": "2551",
+        "end": "2575",
+        "contribution": 1793,
+        "hieroglyphic": "fb560de8bc19833811a71a4f1f200f3cbf4efc075a6252fac178eb1d21142f85"
+    },
+    {
+        "id": 7,
+        "name": "Djedefre",
+        "begin": "2528",
+        "end": "2551",
+        "contribution": 4567,
+        "hieroglyphic": "e01e5b4eec0a4f1ace86f55844d13818c673a359ac605bf106bf7c6124ca0b1d"
+    },
+    {
+        "id": 8,
+        "name": "Khafre",
+        "begin": "2520",
+        "end": "2528",
+        "contribution": 7541,
+        "hieroglyphic": "6464ac1e3a399228e4b9cd36a663cbcca93d20dd49dce47155fd167cb7a0f7c7"
+    },
+    {
+        "id": 9,
+        "name": "Nebkaii",
+        "begin": "2494",
+        "end": "2520",
+        "contribution": 4417,
+        "hieroglyphic": "35d2dfd89bc6600c9a1d9083d2fe90a3eac77fb519e6452b062c6824bd2bdd0c"
+    },
+    {
+        "id": 10,
+        "name": "Menkaure",
+        "begin": "2490",
+        "end": "2494",
+        "contribution": 4743,
+        "hieroglyphic": "0f109c3b932f7367ce8adf96adea279ea9d2e1de37cd035e12c0688d42137a73"
+    },
+    {
+        "id": 11,
+        "name": "Shepseskaf",
+        "begin": "2472",
+        "end": "2490",
+        "contribution": 9347,
+        "hieroglyphic": "6c9bbae64209dbf2e6c9afc3a2aab8fb06335a1db18afd5956172f9d89c3d890"
+    },
+    {
+        "id": 12,
+        "name": "Thamphthis",
+        "begin": "2467",
+        "end": "2472",
+        "contribution": 8756,
+        "hieroglyphic": "5adc9f0ca089e7fbc84f3af86691fa6e7a296aa6003c6d2e56caa3edad082d7d"
+    },
+    {
+        "id": 13,
+        "name": "Userkaf",
+        "begin": "2323",
+        "end": "2465",
+        "contribution": 2142,
+        "hieroglyphic": "91d619943cb94bf2bbac5284e7a8f384e1f03ae95ad10b5911d3e3bd6ce998dc"
+    },
+    {
+        "id": 14,
+        "name": "Sahure",
+        "begin": "2458",
+        "end": "2465",
+        "contribution": 8980,
+        "hieroglyphic": "65dd1d46b99236dea75beb9ac8300d545b82fd47fca3a6a85cc4f36195f257c1"
+    },
+    {
+        "id": 15,
+        "name": "Neferirkare",
+        "begin": "2446",
+        "end": "2458",
+        "contribution": 9764,
+        "hieroglyphic": "511a9d56bc31d5146f02078f9e4e6be0aad3f6400d9131b46f7396a94b28cf7b"
+    },
+    {
+        "id": 16,
+        "name": "Shepseskare",
+        "begin": "2438",
+        "end": "2446",
+        "contribution": 2199,
+        "hieroglyphic": "6f6b30e2ddef2663a0f4ec9675c2cd8e1531d6f674a95764414b0eb79fb625de"
+    },
+    {
+        "id": 17,
+        "name": "Neferefre",
+        "begin": "2431",
+        "end": "2438",
+        "contribution": 9393,
+        "hieroglyphic": "62751cef2d3f8db15eda6e2c772f04581a82edfcc09e76db3250b48fc081d30f"
+    },
+    {
+        "id": 18,
+        "name": "Niuserre",
+        "begin": "2420",
+        "end": "2431",
+        "contribution": 7867,
+        "hieroglyphic": "0f9cb9631040bb118e51360b6866d86d03afcbef4cc50c1d0d4ccab5163efca9"
+    },
+    {
+        "id": 19,
+        "name": "Menkauhor",
+        "begin": "2389",
+        "end": "2420",
+        "contribution": 7859,
+        "hieroglyphic": "59027cfdc1a8a0ee336b5f5f014b71a4814a3b6e84ba6929aa3be18e88a9b629"
+    },
+    {
+        "id": 20,
+        "name": "Isesi",
+        "begin": "2381",
+        "end": "2389",
+        "contribution": 9113,
+        "hieroglyphic": "7ed4d809f8d3562e496e571500e3eef97001973560e45a8a9ab8e310a5f43612"
+    },
+    {
+        "id": 21,
+        "name": "Unis",
+        "begin": "2353",
+        "end": "2381",
+        "contribution": 9971,
+        "hieroglyphic": "590cd8c8482959757f53c84c485a05752451a90df9f28779700514e7a973f06c"
+    },
+    {
+        "id": 22,
+        "name": "Teti",
+        "begin": "2150",
+        "end": "2323",
+        "contribution": 5664,
+        "hieroglyphic": "480a02b63386d68463351d747efae1dcd50106c8a552cc6674272bc086a610d4"
+    },
+    {
+        "id": 23,
+        "name": "Userkare",
+        "begin": "2291",
+        "end": "2323",
+        "contribution": 7822,
+        "hieroglyphic": "de06055dd709935049dd1733959d4e261ecb994592e9e87579ac572ad25e1b43"
+    },
+    {
+        "id": 24,
+        "name": "Pepii",
+        "begin": "2289",
+        "end": "2291",
+        "contribution": 2662,
+        "hieroglyphic": "fcaf529090635de3d67495fd936efba17b14cc7010c1815f07c543dd0b9b6d4e"
+    },
+    {
+        "id": 25,
+        "name": "Merenrei",
+        "begin": "2255",
+        "end": "2289",
+        "contribution": 4772,
+        "hieroglyphic": "a48a8750ec83ffdfcf2b7e786bf2f45d24f29c270f962d900bb4df97d792a24e"
+    },
+    {
+        "id": 26,
+        "name": "Pepiii",
+        "begin": "2246",
+        "end": "2255",
+        "contribution": 6476,
+        "hieroglyphic": "0a7b307085b48382b3c0d048a9717576fdb1b97cb443060192c1706ada3f6178"
+    },
+    {
+        "id": 27,
+        "name": "Merenreii",
+        "begin": "2152",
+        "end": "2246",
+        "contribution": 8796,
+        "hieroglyphic": "c1b7223f42a003bbd36726254f480c1a18d388f3a8477d68a99f6c1c8d7556c7"
+    },
+    {
+        "id": 28,
+        "name": "Netjerkaresiptah",
+        "begin": "2152",
+        "end": "2152",
+        "contribution": 1882,
+        "hieroglyphic": "3a7d89d564ec7abf452707a271a6a7cb96e70a1d0f709d17735e0ee028dba2a8"
+    },
+    {
+        "id": 29,
+        "name": "Firstintermediateperiod",
+        "begin": "2150",
+        "end": "2152",
+        "contribution": 3338,
+        "hieroglyphic": "3a82cb11195cfe14a62c0cddbd92cc82cbec3767967a1543a03ab9cd8acb9c70"
+    },
+    {
+        "id": 30,
+        "name": "Mentuhotepi",
+        "begin": "2030",
+        "end": "2124",
+        "contribution": 7011,
+        "hieroglyphic": "5ae43e72bee715b773033f0bfcf7228f404cfb4d8e7fd584d4990a234697e07a"
+    },
+    {
+        "id": 31,
+        "name": "Intefi",
+        "begin": "2120",
+        "end": "2124",
+        "contribution": 5032,
+        "hieroglyphic": "50173c88fc4f6bb9be186dd591b96d6645d1f1b24c8b6ed1cfa9ea150ff0a6a5"
+    },
+    {
+        "id": 32,
+        "name": "Intefii",
+        "begin": "2108",
+        "end": "2120",
+        "contribution": 2535,
+        "hieroglyphic": "108339dd14be51d170e52fc8b7ff0ba03e981c5092e7ef2cabe7f751dfafc387"
+    },
+    {
+        "id": 33,
+        "name": "Intefiii",
+        "begin": "2059",
+        "end": "2108",
+        "contribution": 7694,
+        "hieroglyphic": "9a54bbec8fed7d976b09e1a3c28adef68764326d8e58cf74e5aa80aeb21de5df"
+    },
+    {
+        "id": 34,
+        "name": "Mentuhotepii",
+        "begin": "2051",
+        "end": "2059",
+        "contribution": 9823,
+        "hieroglyphic": "ab813f9179ff4d4e5ebf3641fdceed9635acd67b2a8728f2896e39dd80f3b52a"
+    },
+    {
+        "id": 35,
+        "name": "Middlekingdom",
+        "begin": "2030",
+        "end": "2051",
+        "contribution": 3863,
+        "hieroglyphic": "7aaece33884a0db11322cb0354dbf5329ac9cb78911ef03f45e3c7ee8881823f"
+    },
+    {
+        "id": 36,
+        "name": "Mentuhotepii",
+        "begin": "1981",
+        "end": "2030",
+        "contribution": 7724,
+        "hieroglyphic": "a2b3f15c75dc0d3d2bfa2406436d364b074090bb2826e8bfcbb8518c3c419ed1"
+    },
+    {
+        "id": 37,
+        "name": "Mentuhotepiii",
+        "begin": "2000",
+        "end": "2030",
+        "contribution": 1172,
+        "hieroglyphic": "26c9927a13f069594546d2aabb945b4ad90b2d04d4f25306c14adbe0dc7d3a8b"
+    },
+    {
+        "id": 38,
+        "name": "Qakareintef",
+        "begin": "1988",
+        "end": "2000",
+        "contribution": 7666,
+        "hieroglyphic": "f4ea258ce45a09e94464b8dc5ed8db0af9c96e21249e0150160d46e7a7177a4b"
+    },
+    {
+        "id": 39,
+        "name": "Amenemhati",
+        "begin": "1802",
+        "end": "1981",
+        "contribution": 8213,
+        "hieroglyphic": "2281167045140c243a5acac7eb92195141ac48e6ed8ce0a080e313b280884691"
+    },
+    {
+        "id": 40,
+        "name": "Senwosreti",
+        "begin": "1952",
+        "end": "1981",
+        "contribution": 8005,
+        "hieroglyphic": "056cd147a9f315c4204678ccf783b48efa1e33b99935a818c529ccea2d77ebfb"
+    },
+    {
+        "id": 41,
+        "name": "Amenemhatii",
+        "begin": "1917",
+        "end": "1961",
+        "contribution": 3630,
+        "hieroglyphic": "e08f1cde8df7c45c7f6ebd4bd44a6d2fb789fd29854d597481097f059c4800ab"
+    },
+    {
+        "id": 42,
+        "name": "Senwosretii",
+        "begin": "1885",
+        "end": "1919",
+        "contribution": 1706,
+        "hieroglyphic": "917cdff602cf871154c68a989e68d15148c10b6bf41b1da58a7089cc7a3d0bf2"
+    },
+    {
+        "id": 43,
+        "name": "Senwosretiii",
+        "begin": "1878",
+        "end": "1887",
+        "contribution": 6972,
+        "hieroglyphic": "fff567c2bac47dad81a866ef62f91e60ab6fa257445356b3f11daccc47156a3e"
+    },
+    {
+        "id": 44,
+        "name": "Amenemhatiii",
+        "begin": "1840",
+        "end": "1878",
+        "contribution": 7196,
+        "hieroglyphic": "fea24d7b2bd803aa088fcbd22214258ee22aa04f4f9848aab2b0345baa5bd827"
+    },
+    {
+        "id": 45,
+        "name": "Amenemhativ",
+        "begin": "1813",
+        "end": "1859",
+        "contribution": 2071,
+        "hieroglyphic": "97166d2d21cfcc1a0b4d69f95078f6a78763ec2310c910940cc79ef9a4126e33"
+    },
+    {
+        "id": 46,
+        "name": "Nefrusobek",
+        "begin": "1805",
+        "end": "1814",
+        "contribution": 7102,
+        "hieroglyphic": "7d22e9be497dc959f12897b8b7bfbb05854fc470e8b082a186eaaf6c5c44245e"
+    },
+    {
+        "id": 47,
+        "name": "Secondintermediateperiod",
+        "begin": "1640",
+        "end": "1802",
+        "contribution": 5307,
+        "hieroglyphic": "0d061e8ac9be929a1943ab836301ce1b9be1b4a07634fc05921e963a47482ad3"
+    },
+    {
+        "id": 48,
+        "name": "Taoi",
+        "begin": "1550",
+        "end": "1635",
+        "contribution": 7990,
+        "hieroglyphic": "08e7fa6672e7982016c59f3b032c6ace13f70585b8a9bc18bc0f07cb2753c78f"
+    },
+    {
+        "id": 49,
+        "name": "Newkingdom",
+        "begin": "1550",
+        "end": "1552",
+        "contribution": 4645,
+        "hieroglyphic": "bfe5e03e14e2c35e8515713c112964c2b8ace2cabc7def44d6c21e85ea4972fe"
+    },
+    {
+        "id": 50,
+        "name": "Ahmose",
+        "begin": "1295",
+        "end": "1550",
+        "contribution": 7949,
+        "hieroglyphic": "5802e66d1abfb9e3519cc21d39caf94dc3c5a6199175884cb297de9de59590fa"
+    },
+    {
+        "id": 51,
+        "name": "Amenhotepi",
+        "begin": "1525",
+        "end": "1550",
+        "contribution": 9524,
+        "hieroglyphic": "bf1c50a94c2d4815004092508ab5beca2a29fdb5cfc7663e99d1f19af5424dbf"
+    },
+    {
+        "id": 52,
+        "name": "Thutmosei",
+        "begin": "1504",
+        "end": "1525",
+        "contribution": 2671,
+        "hieroglyphic": "00985d7128b3ce04055d6c4f646f3b8f8baf7df4cdb51b755d3ab999ef6e9f21"
+    },
+    {
+        "id": 53,
+        "name": "Thutmoseii",
+        "begin": "1492",
+        "end": "1504",
+        "contribution": 9047,
+        "hieroglyphic": "be86c94578b05155c76bd529dddb8ee42b45030a11329c68db9e7e35a051f12b"
+    },
+    {
+        "id": 54,
+        "name": "Thutmoseiii",
+        "begin": "1479",
+        "end": "1492",
+        "contribution": 2794,
+        "hieroglyphic": "0b10196f8e920fc3e091565dfded85aa39b3f532aaf802235afd96e8d31c08e9"
+    },
+    {
+        "id": 55,
+        "name": "Hatshepsut",
+        "begin": "1425",
+        "end": "1479",
+        "contribution": 8578,
+        "hieroglyphic": "6db65c0926241c4ea08b04f85807efe048e384e73fbbc6c3eb4201b1a1975c35"
+    },
+    {
+        "id": 56,
+        "name": "Hatshepsut",
+        "begin": "1473",
+        "end": "1479",
+        "contribution": 4558,
+        "hieroglyphic": "6243c73a4d23b67f03998b2a6241877698eb4ebfae24483cb71827e03a068848"
+    },
+    {
+        "id": 57,
+        "name": "Amenhotepii",
+        "begin": "1458",
+        "end": "1473",
+        "contribution": 7386,
+        "hieroglyphic": "c53558d5900969049840d7d9539754c4715dd3708fba9fc5f5ec884b65411e83"
+    },
+    {
+        "id": 58,
+        "name": "Thutmoseiv",
+        "begin": "1400",
+        "end": "1427",
+        "contribution": 8108,
+        "hieroglyphic": "d7b6d6c11c319d5202ad3afd5e56ff9d9cdb45b9fcf3456bcd43162c7a2d5ba4"
+    },
+    {
+        "id": 59,
+        "name": "Amenhotepiii",
+        "begin": "1390",
+        "end": "1400",
+        "contribution": 6659,
+        "hieroglyphic": "84bfd6f2a6c73e1176eff6f78673318d9f11186f935287cfec5a5945fc01b510"
+    },
+    {
+        "id": 60,
+        "name": "Amenhotepiv",
+        "begin": "1352",
+        "end": "1390",
+        "contribution": 7015,
+        "hieroglyphic": "a094fd4953fd592fa506cb36246bccbd9bbaf2cbf3505c9df5cb407ef2491be6"
+    },
+    {
+        "id": 61,
+        "name": "Akhenaten",
+        "begin": "1349",
+        "end": "1353",
+        "contribution": 3737,
+        "hieroglyphic": "b3064a6c938a046d86d3a26df6a81e6c4fa75c9b3952932dff68bee99eb0c110"
+    },
+    {
+        "id": 62,
+        "name": "Neferneferuaton",
+        "begin": "1336",
+        "end": "1349",
+        "contribution": 5882,
+        "hieroglyphic": "58bc137921dbd7e05ca5f0f7c70a7ca37994ee013ef5f41439d29ea15d3ece6a"
+    },
+    {
+        "id": 63,
+        "name": "Smenkhkare",
+        "begin": "1336",
+        "end": "1338",
+        "contribution": 3318,
+        "hieroglyphic": "daec4892ecb86c0c707e4856bbb8c94ab00c2e3de9ce551ff6a6e177990932b6"
+    },
+    {
+        "id": 64,
+        "name": "Aya",
+        "begin": "1327",
+        "end": "1336",
+        "contribution": 6135,
+        "hieroglyphic": "33c08f03bbe5192e233d3f4fc548d8de0011a1cc5439f0cd49ba9e5d01e0f770"
+    },
+    {
+        "id": 65,
+        "name": "Haremhab",
+        "begin": "1323",
+        "end": "1327",
+        "contribution": 1888,
+        "hieroglyphic": "6dfd1a2c941e53e082f9854f5b4ea90ae4356d09f8dee590c7f8a258658de3f1"
+    },
+    {
+        "id": 66,
+        "name": "Ramessesi",
+        "begin": "1186",
+        "end": "1295",
+        "contribution": 4356,
+        "hieroglyphic": "ac0c9053465f126c435fc2f2caac94eb57b793ae89798775c215c2af55750f77"
+    },
+    {
+        "id": 67,
+        "name": "Setii",
+        "begin": "1294",
+        "end": "1295",
+        "contribution": 4550,
+        "hieroglyphic": "909aa4d9247e14892651d8e3ba610d5b5a9fe72430f5fe16ec244e98d76af1a9"
+    },
+    {
+        "id": 68,
+        "name": "Ramessesii",
+        "begin": "1279",
+        "end": "1294",
+        "contribution": 4123,
+        "hieroglyphic": "c1980dff239fd8b8b00024e0bfbc8774b48db661ac6c9f54a279ca25fc2aab1e"
+    },
+    {
+        "id": 69,
+        "name": "Merneptah",
+        "begin": "1213",
+        "end": "1279",
+        "contribution": 6073,
+        "hieroglyphic": "a1a46430b6204157d619de0fb136ea406204ed901e2b1540f9c84a66c77b6707"
+    },
+    {
+        "id": 70,
+        "name": "Amenmesse",
+        "begin": "1203",
+        "end": "1213",
+        "contribution": 3097,
+        "hieroglyphic": "884855b0549a16f1879ecd676ec84feabc60002460154bab29122ff1da08c207"
+    },
+    {
+        "id": 71,
+        "name": "Setiii",
+        "begin": "1200",
+        "end": "1203",
+        "contribution": 7172,
+        "hieroglyphic": "42f6717a07d40fc2dbef4db28afe68f2d8afc52fbfc90072045914bcd6af028e"
+    },
+    {
+        "id": 72,
+        "name": "Siptah",
+        "begin": "1194",
+        "end": "1200",
+        "contribution": 4231,
+        "hieroglyphic": "388f2c111e31bdb05a995ee5fdf0ba76498790adfc1f15dfa20747b3e90cd412"
+    },
+    {
+        "id": 73,
+        "name": "Tawosret",
+        "begin": "1188",
+        "end": "1194",
+        "contribution": 7030,
+        "hieroglyphic": "7d26541305fcbe83e6b0d8c1ff984dbed3105a63caf9d43b24573da6664e4880"
+    },
+    {
+        "id": 74,
+        "name": "Sethnakht",
+        "begin": "1070",
+        "end": "1186",
+        "contribution": 4766,
+        "hieroglyphic": "002d07c0155a76b3a45c75d64459e073892da105f14cfc1711b296afd699a012"
+    },
+    {
+        "id": 75,
+        "name": "Ramessesiii",
+        "begin": "1184",
+        "end": "1186",
+        "contribution": 7927,
+        "hieroglyphic": "0c94d23de97573fbe1150ad90d94b3bffd1116157fbf14d9953c24ea2700c76c"
+    },
+    {
+        "id": 76,
+        "name": "Ramessesiv",
+        "begin": "1153",
+        "end": "1184",
+        "contribution": 6052,
+        "hieroglyphic": "3a65c0da54340b7bbfc612220ccb71352d86630924ab7da45ae1615734227173"
+    },
+    {
+        "id": 77,
+        "name": "Ramessesv",
+        "begin": "1147",
+        "end": "1153",
+        "contribution": 9592,
+        "hieroglyphic": "b1519c1d222855468f9eb5a5f044d42dafdff9ec1f33b65343809a673821001d"
+    },
+    {
+        "id": 78,
+        "name": "Ramessesvi",
+        "begin": "1143",
+        "end": "1147",
+        "contribution": 6660,
+        "hieroglyphic": "34495b7b8738a0f8058325ab55bbac67f7e06db5bba05b82fa93c26e5dd00b28"
+    },
+    {
+        "id": 79,
+        "name": "Ramessesvii",
+        "begin": "1136",
+        "end": "1143",
+        "contribution": 8622,
+        "hieroglyphic": "d611fd91c23d9984982303b5c3c941240318e79a64342a74d37f1d3275c7b96e"
+    },
+    {
+        "id": 80,
+        "name": "Ramessesviii",
+        "begin": "1129",
+        "end": "1136",
+        "contribution": 9615,
+        "hieroglyphic": "42270aa1ab2e9e3603cc0529a736b840a6f81d23a74f6f4f1cb5fdc36bdf9c97"
+    },
+    {
+        "id": 81,
+        "name": "Ramessesix",
+        "begin": "1126",
+        "end": "1129",
+        "contribution": 1531,
+        "hieroglyphic": "09a8f7f5840d32ad4a5fccca85860de3698dc5c7dd475e72b64be7d6eea0b170"
+    },
+    {
+        "id": 82,
+        "name": "Ramessesx",
+        "begin": "1108",
+        "end": "1126",
+        "contribution": 6070,
+        "hieroglyphic": "8653676ad5458b2d11d72f442459784b606fd470c70ce0e545dc4291312902a0"
+    },
+    {
+        "id": 83,
+        "name": "Ramessesxi",
+        "begin": "1099",
+        "end": "1108",
+        "contribution": 9922,
+        "hieroglyphic": "61cd26257dd0895f3f6d85211db1d7934ffe4d7285ddbb69de6189a184c8a9c0"
+    },
+    {
+        "id": 84,
+        "name": "Hightpriestsofamun",
+        "begin": "1070",
+        "end": "1099",
+        "contribution": 5836,
+        "hieroglyphic": "11d5f41a6b6c124f197406d2cd7eaedfd73c5bb7fe17daceacc7d8e0c97d1c7a"
+    },
+    {
+        "id": 85,
+        "name": "Hpherihor",
+        "begin": "1070",
+        "end": "1080",
+        "contribution": 3824,
+        "hieroglyphic": "c706dcb4ccae0c080a356a7fddd85ce6c1204004a4e886fda87caad9a11f3a71"
+    },
+    {
+        "id": 86,
+        "name": "Hppaiankh",
+        "begin": "1074",
+        "end": "1080",
+        "contribution": 6886,
+        "hieroglyphic": "b49f9ca67be78cb65153a979a82a8694fcecf9a7bc76916de1d53e8f656c3940"
+    },
+    {
+        "id": 87,
+        "name": "Thirdintermediateperiod",
+        "begin": "1070",
+        "end": "1074",
+        "contribution": 6988,
+        "hieroglyphic": "71d61cc43866699da53655c45051c3fb033d04aa7029e2307359d2aa1953719b"
+    },
+    {
+        "id": 88,
+        "name": "Smendes",
+        "begin": "945",
+        "end": "1070",
+        "contribution": 9818,
+        "hieroglyphic": "3a53ff15702a016ae73758dc1d31044b110d324a00ce5029ba2bc3c65fe1f62f"
+    },
+    {
+        "id": 89,
+        "name": "Hppainedjemi",
+        "begin": "1044",
+        "end": "1070",
+        "contribution": 5050,
+        "hieroglyphic": "b2b503c6abda601df8d71e1d4ec1a2b6dfa8fee8585e7fbf6f11f8e309341dcf"
+    },
+    {
+        "id": 90,
+        "name": "Hpmasaharta",
+        "begin": "1032",
+        "end": "1070",
+        "contribution": 8512,
+        "hieroglyphic": "64d5ff9bcf5dfbd306227b769562b9f5e305990ab042a1ea1df8297d79f901c8"
+    },
+    {
+        "id": 91,
+        "name": "Hpdjedkhonsefankh",
+        "begin": "1046",
+        "end": "1054",
+        "contribution": 9101,
+        "hieroglyphic": "2b26a86b9e1d8a3c664b27a011786cfc916d9cbb5eaafa1b33cbc7013c12425b"
+    },
+    {
+        "id": 92,
+        "name": "Hpmenkheperre",
+        "begin": "1045",
+        "end": "1046",
+        "contribution": 7155,
+        "hieroglyphic": "3e423b3f26a29c87eae8d57c63663356bf363977658eba4e8a1ff312d6aeffd5"
+    },
+    {
+        "id": 93,
+        "name": "Amenemnisu",
+        "begin": "992",
+        "end": "1045",
+        "contribution": 2898,
+        "hieroglyphic": "ce2b5945a3cf2cc6dc8c8dc614ec6dda602ea50047ecbf545bc9979465328125"
+    },
+    {
+        "id": 94,
+        "name": "Psusennesi",
+        "begin": "1040",
+        "end": "1044",
+        "contribution": 3973,
+        "hieroglyphic": "61c882820dd2b613fec312faa243b58d08a6c379407f8dda5b6798bf3ab1599d"
+    },
+    {
+        "id": 95,
+        "name": "Amenemope",
+        "begin": "992",
+        "end": "1040",
+        "contribution": 6938,
+        "hieroglyphic": "c022363d261612add1f85ee5eca8c33e84ea1d42a804b77ec7230ac586a47621"
+    },
+    {
+        "id": 96,
+        "name": "Hpsmendes",
+        "begin": "984",
+        "end": "993",
+        "contribution": 7071,
+        "hieroglyphic": "82e76053b16d62f77368ebcfb0bc9211f03905fd1f9b3208645d095384048150"
+    },
+    {
+        "id": 97,
+        "name": "Hppainedjemii",
+        "begin": "990",
+        "end": "992",
+        "contribution": 9039,
+        "hieroglyphic": "66a43f74012b1e0a01c9ab25584eb722d2e273185bc46746843a9616b86e22af"
+    },
+    {
+        "id": 98,
+        "name": "Osochor",
+        "begin": "969",
+        "end": "990",
+        "contribution": 3172,
+        "hieroglyphic": "b0d8f820c969a4fd9f9ca8eaf826ae932112d15925bf8407272830f10f7a2193"
+    },
+    {
+        "id": 99,
+        "name": "Siamun",
+        "begin": "978",
+        "end": "984",
+        "contribution": 4016,
+        "hieroglyphic": "6100bd0e1b465a680d121651ec53536230c50ea46cf02dc77e752776bb86ff15"
+    },
+    {
+        "id": 100,
+        "name": "Hppsusennes",
+        "begin": "959",
+        "end": "978",
+        "contribution": 2036,
+        "hieroglyphic": "2d79d49d764c591e35604059acc680eb1a596d63f05782da0c9705412a8e6f5b"
+    },
+    {
+        "id": 101,
+        "name": "Psusennesii",
+        "begin": "959",
+        "end": "969",
+        "contribution": 3277,
+        "hieroglyphic": "d1dc459b2f3ea432e51e6f04d1d207e9ba919777dfeead46a7b9036ab277d562"
+    },
+    {
+        "id": 102,
+        "name": "Sheshonqi",
+        "begin": "712",
+        "end": "945",
+        "contribution": 7736,
+        "hieroglyphic": "2fad5bb0b565adc1eeecec475ead74c3992b3883bc7ef7175086af4d83ffc472"
+    },
+    {
+        "id": 103,
+        "name": "Osorkoni",
+        "begin": "924",
+        "end": "945",
+        "contribution": 8812,
+        "hieroglyphic": "daf7fe03f1c607ab9def4bc663eb7d5110d99c00cdb2bc78a9c1e256bda33058"
+    },
+    {
+        "id": 104,
+        "name": "Sheshonqii",
+        "begin": "889",
+        "end": "924",
+        "contribution": 7624,
+        "hieroglyphic": "23c9d28ef89b79a0100a37585ed002051692ec26a98c10ea4fba214cb2c90141"
+    },
+    {
+        "id": 105,
+        "name": "Osorkonii",
+        "begin": "874",
+        "end": "889",
+        "contribution": 8611,
+        "hieroglyphic": "6afad2b434ff07387fe12a31918bb2f2610fd407057a979c79caedb762a9baee"
+    },
+    {
+        "id": 106,
+        "name": "Harsiese",
+        "begin": "850",
+        "end": "874",
+        "contribution": 9383,
+        "hieroglyphic": "f42f05f0539509324378896b8906f3dd603dfa4642acfd63a30a921a9410a644"
+    },
+    {
+        "id": 107,
+        "name": "Sheshonqiii",
+        "begin": "825",
+        "end": "850",
+        "contribution": 5895,
+        "hieroglyphic": "21da4995d577db2641e69f76e71d803d726bff391e8936bbce646a7d0c012600"
+    },
+    {
+        "id": 108,
+        "name": "Pami",
+        "begin": "773",
+        "end": "825",
+        "contribution": 4140,
+        "hieroglyphic": "2b4690268c21e22f4976b2c53c15b6dcb1c1af7430ae772b77ffb2353fc072ee"
+    },
+    {
+        "id": 109,
+        "name": "Sheshonqv",
+        "begin": "767",
+        "end": "773",
+        "contribution": 8581,
+        "hieroglyphic": "854c40cc1c303e19d9166ef33fdf9c55296af58ecb27d0b01d26376079aa6bc3"
+    },
+    {
+        "id": 110,
+        "name": "Osorkoniv",
+        "begin": "730",
+        "end": "767",
+        "contribution": 4951,
+        "hieroglyphic": "bffe8dfb0ee432be557ea19846503e2a25d21656a9c3f877cc46a87b7dce30f9"
+    },
+    {
+        "id": 111,
+        "name": "Pedubastei",
+        "begin": "713",
+        "end": "818",
+        "contribution": 3726,
+        "hieroglyphic": "6b4f311e44e0f9c914d38daff7d00bcd8b50439e76c2d67286ce701a5cf84af1"
+    },
+    {
+        "id": 112,
+        "name": "Iuputi",
+        "begin": "793",
+        "end": "818",
+        "contribution": 9256,
+        "hieroglyphic": "4af139322b3033287996b0e8e36ba000d1ec1dee2aba7929e110ef4acf6a40f3"
+    },
+    {
+        "id": 113,
+        "name": "Osorkoniii",
+        "begin": "787",
+        "end": "793",
+        "contribution": 7656,
+        "hieroglyphic": "eff36529ba0fce0a976dd19900bd5d1c1534b9bb209301c1a14b25a712bf6408"
+    },
+    {
+        "id": 114,
+        "name": "Takelotiii",
+        "begin": "759",
+        "end": "787",
+        "contribution": 9417,
+        "hieroglyphic": "b3e1ecdcfb3a61f21701a1af3f364e998afdf6e0020754b832360774d93dd578"
+    },
+    {
+        "id": 115,
+        "name": "Rudamun",
+        "begin": "757",
+        "end": "764",
+        "contribution": 4288,
+        "hieroglyphic": "4b865c78eb6164a2a0a756b8e2863bd6d51a39a30c4092a1f28fb7c47d63a061"
+    },
+    {
+        "id": 116,
+        "name": "Iuputii",
+        "begin": "754",
+        "end": "757",
+        "contribution": 8608,
+        "hieroglyphic": "f40bcbf0c34648b59e471a7bbf998ed08e9e1a6370832b21fba4a473d6058817"
+    },
+    {
+        "id": 117,
+        "name": "Peftjaubast",
+        "begin": "712",
+        "end": "754",
+        "contribution": 5593,
+        "hieroglyphic": "22df391823f84536fe26a0cf6d6da291390d6af38e482feb190d156034846785"
+    },
+    {
+        "id": 118,
+        "name": "Namlot",
+        "begin": "725",
+        "end": "740",
+        "contribution": 9188,
+        "hieroglyphic": "1ecd262f9b3f29aaa607dadbe6a9a149390b30e726fb326cc92b5d86983f7464"
+    },
+    {
+        "id": 119,
+        "name": "Tefnakht",
+        "begin": "712",
+        "end": "724",
+        "contribution": 9655,
+        "hieroglyphic": "83ed98f2e2605af8dfb492c5a4f73ab93474694600412d458084f4ae556c0380"
+    },
+    {
+        "id": 120,
+        "name": "Bakenrenef",
+        "begin": "717",
+        "end": "724",
+        "contribution": 2761,
+        "hieroglyphic": "6917fd3a5f17d54334de57bac79ed42ec927017f3b94eaabcf4c0cf8e22e9e88"
+    },
+    {
+        "id": 121,
+        "name": "Lateperiod",
+        "begin": "712",
+        "end": "717",
+        "contribution": 2955,
+        "hieroglyphic": "90cb008b4b24faeec35c33dd8e9b39740dc136116e35571a9feac2ef4f30ed26"
+    },
+    {
+        "id": 122,
+        "name": "Shabaqo",
+        "begin": "712",
+        "end": "743",
+        "contribution": 5005,
+        "hieroglyphic": "760e65fe614d70c81ffa535cff64eada4219cb48fdee8fbc04171572b02603bb"
+    },
+    {
+        "id": 123,
+        "name": "Shebitqo",
+        "begin": "698",
+        "end": "712",
+        "contribution": 5534,
+        "hieroglyphic": "7e75361fb131b122b8bd20339c9ecd3338a370098b20552c813f73419806e5e6"
+    },
+    {
+        "id": 124,
+        "name": "Taharqo",
+        "begin": "690",
+        "end": "698",
+        "contribution": 5871,
+        "hieroglyphic": "d1e3090293dd7c24833fa8a741b35021a93dc99404cdd2cf67b59da10a085915"
+    },
+    {
+        "id": 125,
+        "name": "Tanutamani",
+        "begin": "664",
+        "end": "690",
+        "contribution": 2789,
+        "hieroglyphic": "b9a6082ca8db6c9b51e8459698136e793e53856a0b6a838e65e77d07cea22ad0"
+    },
+    {
+        "id": 126,
+        "name": "Nikauba",
+        "begin": "525",
+        "end": "688",
+        "contribution": 4805,
+        "hieroglyphic": "6d2061fa1edf1fcd17487eaade4e613e35d2cc54503aa52e98b3d691389bf3ca"
+    },
+    {
+        "id": 127,
+        "name": "Nechoi",
+        "begin": "672",
+        "end": "688",
+        "contribution": 8061,
+        "hieroglyphic": "042f072b4670a232190159d5d0186266a8656054717874e1037fc8dc5fc2eb82"
+    },
+    {
+        "id": 128,
+        "name": "Psamtiki",
+        "begin": "664",
+        "end": "672",
+        "contribution": 2321,
+        "hieroglyphic": "b56b4942f7bdb3930404e6e4312724297a7280a218259a8792b775a768a2c753"
+    },
+    {
+        "id": 129,
+        "name": "Nechoii",
+        "begin": "610",
+        "end": "664",
+        "contribution": 5270,
+        "hieroglyphic": "a072d10a53a7830ec21ef535f0b25ba66be7498b537ae3f3a9fe06fc0a690d91"
+    },
+    {
+        "id": 130,
+        "name": "Psamtikii",
+        "begin": "595",
+        "end": "610",
+        "contribution": 2483,
+        "hieroglyphic": "3dd0993ea32bdbf7eaca248ba1a3174c26f6d080a8db15b57cf6ed93e861bd10"
+    },
+    {
+        "id": 131,
+        "name": "Apries",
+        "begin": "589",
+        "end": "595",
+        "contribution": 9887,
+        "hieroglyphic": "ccd7a0721e857094dc7ed5c0755b5e3e58551e5fa35c52224d02aa05958007f1"
+    },
+    {
+        "id": 132,
+        "name": "Amasis",
+        "begin": "570",
+        "end": "589",
+        "contribution": 1018,
+        "hieroglyphic": "7673dd1ac0dba090d3932b37d4fe6ef8c08b6865443d2a1db6f0b3a6f5bcb4d0"
+    },
+    {
+        "id": 133,
+        "name": "Psamtikiii",
+        "begin": "526",
+        "end": "570",
+        "contribution": 2791,
+        "hieroglyphic": "57662b2a80d285c159eb33678f02b8f1be64ac6f9c65c52ecf231be4e17ba3c4"
+    },
+    {
+        "id": 134,
+        "name": "Cambyses",
+        "begin": "404",
+        "end": "525",
+        "contribution": 3705,
+        "hieroglyphic": "99c6fd8329fe66e9dc970cdff1be3936a8377db184e53b6fbcaf5bc167808ba6"
+    },
+    {
+        "id": 135,
+        "name": "Dariusi",
+        "begin": "522",
+        "end": "525",
+        "contribution": 1815,
+        "hieroglyphic": "bdff5fd662a9014d3dacc3643be90bc603269663eaa7ba811f013919b5e6fbce"
+    },
+    {
+        "id": 136,
+        "name": "Xerxesi",
+        "begin": "486",
+        "end": "521",
+        "contribution": 2152,
+        "hieroglyphic": "7d29809824501946c195452ccd8a815c3e8e7bcbd43405c204e768f5a9694f54"
+    },
+    {
+        "id": 137,
+        "name": "Artaxerxesi",
+        "begin": "466",
+        "end": "486",
+        "contribution": 1161,
+        "hieroglyphic": "7c0e1a15316c762b27f6eca2dccd4fa5766265ef5c2cee296ac83f28f19ea369"
+    },
+    {
+        "id": 138,
+        "name": "Dariusii",
+        "begin": "424",
+        "end": "465",
+        "contribution": 3784,
+        "hieroglyphic": "72143c976604914f3e1df38b46e048fd1e7691117fc81c1b9c26ecc6dcd85b5c"
+    },
+    {
+        "id": 139,
+        "name": "Pedubasteiii",
+        "begin": "399",
+        "end": "522",
+        "contribution": 7953,
+        "hieroglyphic": "67584cbe226f103b6032655ae77526ccd7686785684d3840447c0c1e08f1c581"
+    },
+    {
+        "id": 140,
+        "name": "Psamtikiv",
+        "begin": "520",
+        "end": "522",
+        "contribution": 3936,
+        "hieroglyphic": "fffb104e2a4195d7153073107c267e8bb86625aacb54ad2a8c42f558bc8ca882"
+    },
+    {
+        "id": 141,
+        "name": "Nepheritesi",
+        "begin": "380",
+        "end": "399",
+        "contribution": 5232,
+        "hieroglyphic": "01fa0bebb14cad8ec0077f92afe91a9ee950f5cd9af1e52998e9e60c1081a1c1"
+    },
+    {
+        "id": 142,
+        "name": "Psammuthis",
+        "begin": "393",
+        "end": "399",
+        "contribution": 2914,
+        "hieroglyphic": "630fce53f7e04780e27a6d3b9cf3c520b5083f887f6f85310b46ccf58fb96de9"
+    },
+    {
+        "id": 143,
+        "name": "Nepheritesii",
+        "begin": "380",
+        "end": "393",
+        "contribution": 3186,
+        "hieroglyphic": "00a3e27a85c4098e8319135f7cbbbd15ca32d5fe90bfb15f00b48131d67ff7e4"
+    },
+    {
+        "id": 144,
+        "name": "Nectaneboi",
+        "begin": "343",
+        "end": "380",
+        "contribution": 5290,
+        "hieroglyphic": "44bcd82790d4eb37c999b254e69ce6b24ac40d701368413bda2f61d666c798c5"
+    },
+    {
+        "id": 145,
+        "name": "Teos",
+        "begin": "362",
+        "end": "380",
+        "contribution": 5756,
+        "hieroglyphic": "2e4a07521d273965ebd235ec1d4167150663c80a66919f673c428055725b9d47"
+    },
+    {
+        "id": 146,
+        "name": "Nectaneboii",
+        "begin": "360",
+        "end": "365",
+        "contribution": 6980,
+        "hieroglyphic": "02144d0e568bb14f41379c8fb62db7916bc8cc98d74486b5d83e60b2662c8394"
+    },
+    {
+        "id": 147,
+        "name": "Persians",
+        "begin": "343",
+        "end": "360",
+        "contribution": 6974,
+        "hieroglyphic": "486d340d978722273973f95bd0221b100269eb1f93967edfe42c4bf1ac179d2e"
+    },
+    {
+        "id": 148,
+        "name": "Khabebesh",
+        "begin": "332",
+        "end": "343",
+        "contribution": 3729,
+        "hieroglyphic": "2d7ee846de365aaede566603bd5342b7868c466d1e6921c8a0eb5fcb16acceb8"
+    },
+    {
+        "id": 149,
+        "name": "Artaxerxesiiiochus",
+        "begin": "332",
+        "end": "343",
+        "contribution": 4152,
+        "hieroglyphic": "83d10773df46475a614c10c7354d924c25b6bfcbf97198e4b30209af038ca755"
+    },
+    {
+        "id": 150,
+        "name": "Arses",
+        "begin": "338",
+        "end": "343",
+        "contribution": 9889,
+        "hieroglyphic": "5826e5e311642b1d7b721efe1a24b5f29cc5cab3a329b59fc3eb6416854d0eea"
+    },
+    {
+        "id": 151,
+        "name": "Dariusiiicodoman",
+        "begin": "336",
+        "end": "338",
+        "contribution": 8224,
+        "hieroglyphic": "95397d729ff5d692093c2584749a2b2ee79d6c3139b93fdd3dff634fc0dc11cc"
+    },
+    {
+        "id": 152,
+        "name": "Macedonianperiod",
+        "begin": "332",
+        "end": "335",
+        "contribution": 2257,
+        "hieroglyphic": "50ab4c76522d0005b62d79eb5aa420ea272f514fcf1fed628dd0cb96ae28cc52"
+    },
+    {
+        "id": 153,
+        "name": "Alexanderthegreat",
+        "begin": "304",
+        "end": "332",
+        "contribution": 3997,
+        "hieroglyphic": "48be18a0aba498b8472796947045c826372887b7689338e23014d1f0f952ec43"
+    },
+    {
+        "id": 154,
+        "name": "Philiparrhidaeus",
+        "begin": "323",
+        "end": "332",
+        "contribution": 3447,
+        "hieroglyphic": "54248f4ec3b34f517327575ccaf9024cd17f65f064a9a70e50260d010a8682d5"
+    },
+    {
+        "id": 155,
+        "name": "Alexanderiv",
+        "begin": "316",
+        "end": "323",
+        "contribution": 9893,
+        "hieroglyphic": "57b6b589f161882d7cad37f5dca534af5b37e55c65968116060f38210d3c3f6c"
+    },
+    {
+        "id": 156,
+        "name": "Ptolemaicperiod",
+        "begin": "304",
+        "end": "316",
+        "contribution": 7674,
+        "hieroglyphic": "0c689bc5561526e6008e24b289a76db15bb7f34c92826bd8c10c1c7193a6e080"
+    },
+    {
+        "id": 157,
+        "name": "Ptolemyisoteri",
+        "begin": "30",
+        "end": "304",
+        "contribution": 8538,
+        "hieroglyphic": "8bab1409206cb156111cb1a27bd577aa47f4cd34196378808a1672d6cd4b09d8"
+    },
+    {
+        "id": 158,
+        "name": "Ptolemyiiphiladelphos",
+        "begin": "284",
+        "end": "304",
+        "contribution": 4479,
+        "hieroglyphic": "be474c1d7db9fdcd8d386ebfec3f4c045c048278df2893e01dd232fec4a3452d"
+    },
+    {
+        "id": 159,
+        "name": "Arsinoeii",
+        "begin": "246",
+        "end": "285",
+        "contribution": 4924,
+        "hieroglyphic": "f8079d25265bba48473393b539096afed5150ce7659c1329ca067ad46e13553a"
+    },
+    {
+        "id": 160,
+        "name": "Ptolemyiiieuergetesi",
+        "begin": "270",
+        "end": "278",
+        "contribution": 8868,
+        "hieroglyphic": "848296f874b4b18d1112e727167a2f769c5ad4003fec1db59e8e44cd2efdb72e"
+    },
+    {
+        "id": 161,
+        "name": "Berenikeii",
+        "begin": "221",
+        "end": "246",
+        "contribution": 8741,
+        "hieroglyphic": "1b6155ae7229abdd7080606e40ea19b3066e9ea4768ce170b5f6b50823822c19"
+    },
+    {
+        "id": 162,
+        "name": "Ptolemyivphilopator",
+        "begin": "221",
+        "end": "246",
+        "contribution": 5967,
+        "hieroglyphic": "a5a9de102b93f8dbb613573d57f2357952031dd4d1cf982f4653ef80c938ef4a"
+    },
+    {
+        "id": 163,
+        "name": "Ptolemyvepiphanes",
+        "begin": "205",
+        "end": "222",
+        "contribution": 2092,
+        "hieroglyphic": "131bd6e6216d0b166582bd4c44734aa47456ade7db2a2d2b4c1f99a6f90a0759"
+    },
+    {
+        "id": 164,
+        "name": "Harwennefer",
+        "begin": "180",
+        "end": "205",
+        "contribution": 2116,
+        "hieroglyphic": "183bf899a6005d32b50993b6ff35625b0fd13e439990a50f2781e77329571299"
+    },
+    {
+        "id": 165,
+        "name": "Ankhwennefer",
+        "begin": "199",
+        "end": "205",
+        "contribution": 5587,
+        "hieroglyphic": "347e87eaaafbaa66c06bab2399c1bd572f9f58f57b0fdefb8b0e5a4e0415052f"
+    },
+    {
+        "id": 166,
+        "name": "Cleopatrai",
+        "begin": "186",
+        "end": "199",
+        "contribution": 5648,
+        "hieroglyphic": "c44b38499d9c7ea4a2dcda33ceb5d71b6dfcf61d66385bd5882329b8cb5a993e"
+    },
+    {
+        "id": 167,
+        "name": "Ptolemyviphilometor",
+        "begin": "176",
+        "end": "194",
+        "contribution": 7201,
+        "hieroglyphic": "12efab92829527ca54a268809163d588e2bb24f6d092bba13d93ea61d7bebfbb"
+    },
+    {
+        "id": 168,
+        "name": "Cleopatraii",
+        "begin": "145",
+        "end": "180",
+        "contribution": 8150,
+        "hieroglyphic": "5e2e526378a02b43691db26634ebca3aaaa1fc39a980c837897c143494650371"
+    },
+    {
+        "id": 169,
+        "name": "Ptolemyviiieuergetesii",
+        "begin": "115",
+        "end": "175",
+        "contribution": 5138,
+        "hieroglyphic": "b6ff5b7534536422bf5efdff51983e096836588471a9f8066c9a205ccef1ed72"
+    },
+    {
+        "id": 170,
+        "name": "Harsiese",
+        "begin": "116",
+        "end": "170",
+        "contribution": 8447,
+        "hieroglyphic": "c4fcb34374fb434e606be7fcf73e57a8be132b881665ce60a124648f280202ae"
+    },
+    {
+        "id": 171,
+        "name": "Ptolemyixsoterii",
+        "begin": "144",
+        "end": "145",
+        "contribution": 7947,
+        "hieroglyphic": "c6082819f3a5e141f6a4b464fbd67e954032069e6b5ba935b6d1f493b72fc00c"
+    }
+]
