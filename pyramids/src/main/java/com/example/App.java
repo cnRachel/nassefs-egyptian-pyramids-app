@@ -193,7 +193,7 @@ public class App {
 
   private void displaySpecificPharaoh(Scanner scan) {
     Integer requestedId;
-    System.out.print("Enter a pharoah id: ");
+    System.out.print("Enter a pharaoh id: ");
     if (scan.hasNextInt()) {
       requestedId = scan.nextInt();
       if (requestedId >= pharaohArray.length || requestedId < 0) {
@@ -245,7 +245,7 @@ public class App {
     printMenuLine();
     System.out.printf("Command\t\tDescription\n");
     System.out.printf("-------\t\t---------------------------------------\n");
-    printMenuCommand('1', "List all the pharoahs");
+    printMenuCommand('1', "List all the pharaohs");
     printMenuCommand('2', "Displays a specific Egyptian pharaoh");
     printMenuCommand('3', "List all the pyramids");
     printMenuCommand('4', "Displays a specific pyramid");
