@@ -203,8 +203,7 @@ public class App {
         pharaohArray[requestedId].print();
       }
     } else {
-      System.out.println("Invalid input. Please try again.");
-      System.out.println();
+      System.out.println("ERROR: Invalid input");
     }
     scan.nextLine();
     printMenuLine();
@@ -223,8 +222,7 @@ public class App {
         requestedPyramids.add(pyramidArray[requestedId]);
       }
     } else {
-      System.out.println("Invalid input. Please try again.");
-      System.out.println();
+      System.out.println("ERROR: Invalid input");
     }
     scan.nextLine();
     printMenuLine();
