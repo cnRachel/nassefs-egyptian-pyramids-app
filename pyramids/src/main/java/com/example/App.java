@@ -133,6 +133,30 @@ public class App {
     }
   }
 
+  private void printAllPyramid() {
+    for (int i = 0; i < pyramidArray.length; i++) {
+      printMenuLine();
+      Integer totalCoins = 0;
+      System.out.printf("Pyramid %s\n", pyramidArray[i].name);
+      System.out.printf("\tid: %d\n", pyramidArray[i].id);
+
+      // print out all contributors
+      for (int x = 0; x < pyramidArray[i].contributors.length; x++) {
+        String currentContributor = pyramidArray[i].contributors[x];
+        for (int j = 0; j < pharaohArray.length; j++) {
+          if (pharaohArray[j].hieroglyphic.compareTo(currentContributor) == 0) {
+            totalCoins += pharaohArray[j].contribution;
+            System.out.printf("\tcontributor %d: %s %d gold coins\n", x, pharaohArray[j].name, pharaohArray[j].contribution);
+          }
+        }
+      }
+
+      System.out.printf("\ttotal contribution: %d gold coins\n", totalCoins);
+
+      printMenuLine();
+    }
+  }
+
   private Boolean executeCommand(Scanner scan, Character command) {
     Boolean success = true;
 
@@ -142,22 +166,26 @@ public class App {
         break;
       case '2':
         System.out.print("Enter a pharoah id: ");
-        String requestedId;
+        Integer requestedId;
         if (scan.hasNextInt()) {
-          requestedId = scan.nextLine();
-          Integer id = Integer.parseInt(requestedId);
-          if (id > 171 || id < 0) {
+          requestedId = scan.nextInt();
+          if (requestedId > 171 || requestedId < 0) {
             System.out.println("ERROR: Unknown pharaoh");
           } else {
             printMenuLine();
-            pharaohArray[id].print();
+            pharaohArray[requestedId].print();
           }
         } else {
           System.out.println("Invalid input. Please try again.");
           System.out.println();
         }
+        scan.nextLine();
         
         break;
+      case '3':
+        printAllPyramid();
+        break;
+        
       case 'q':
         System.out.println("Thank you for using Nassef's Egyptian Pyramid App!");
         break;
