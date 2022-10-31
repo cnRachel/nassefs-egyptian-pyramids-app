@@ -92,10 +92,14 @@ public class App {
         Integer id = toInteger(o, "id");
         String name = o.get("name").toString();
         JSONArray contributorsJSONArray = (JSONArray) o.get("contributors");
-        String[] contributors = new String[contributorsJSONArray.size()];
+        Pharaoh[] contributors = new Pharaoh[contributorsJSONArray.size()];
         for (int j = 0; j < contributorsJSONArray.size(); j++) {
           String c = contributorsJSONArray.get(j).toString();
-          contributors[j] = c;
+          for (int x = 0; x < pharaohArray.length; x++) {
+            if (pharaohArray[x].hieroglyphic.compareTo(c) == 0) {
+              contributors[j] = pharaohArray[x];
+            }
+          }
         }
   
         // add a new pyramid to array
@@ -148,13 +152,9 @@ public class App {
 
     // print out all contributors
     for (int x = 0; x < p.contributors.length; x++) {
-      String currentContributor = p.contributors[x];
-      for (int j = 0; j < pharaohArray.length; j++) {
-        if (pharaohArray[j].hieroglyphic.compareTo(currentContributor) == 0) {
-          totalCoins += pharaohArray[j].contribution;
-           System.out.printf("\tcontributor %d: %s %d gold coins\n", x+1, pharaohArray[j].name, pharaohArray[j].contribution);
-        }
-      }
+      Pharaoh currentPharaoh = p.contributors[x];
+      totalCoins += currentPharaoh.contribution;
+      System.out.printf("\tcontributor %d: %s %d gold coins\n", x+1, currentPharaoh.name, currentPharaoh.contribution);
     }
 
     System.out.printf("\ttotal contribution: %d gold coins\n", totalCoins);
@@ -183,6 +183,7 @@ public class App {
           System.out.println();
         }
         scan.nextLine();
+        printMenuLine();
         
         break;
       case '3':

@@ -5,13 +5,13 @@ public class Pyramid {
 
   protected Integer id;
   protected String name;
-  protected String[] contributors;
+  protected Pharaoh[] contributors;
 
   // constructor
   public Pyramid(
     Integer pyramidId,
     String pyramidName,
-    String[] pyramidContributors
+    Pharaoh[] pyramidContributors
   ) {
     id = pyramidId;
     name = pyramidName;
