@@ -184,7 +184,7 @@ public class App {
         System.out.println("Thank you for using Nassef's Egyptian Pyramid App!");
         break;
       default:
-        System.out.println("ERROR: Unknown commmand");
+        System.out.println("ERROR: Unknown command");
         success = false;
     }
 
