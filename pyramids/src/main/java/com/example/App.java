@@ -136,29 +136,33 @@ public class App {
   private void printAllPyramid() {
     for (int i = 0; i < pyramidArray.length; i++) {
       printMenuLine();
-      Integer totalCoins = 0;
-      System.out.printf("Pyramid %s\n", pyramidArray[i].name);
-      System.out.printf("\tid: %d\n", pyramidArray[i].id);
-
-      // print out all contributors
-      for (int x = 0; x < pyramidArray[i].contributors.length; x++) {
-        String currentContributor = pyramidArray[i].contributors[x];
-        for (int j = 0; j < pharaohArray.length; j++) {
-          if (pharaohArray[j].hieroglyphic.compareTo(currentContributor) == 0) {
-            totalCoins += pharaohArray[j].contribution;
-            System.out.printf("\tcontributor %d: %s %d gold coins\n", x, pharaohArray[j].name, pharaohArray[j].contribution);
-          }
-        }
-      }
-
-      System.out.printf("\ttotal contribution: %d gold coins\n", totalCoins);
-
+      printOnePyramid(pyramidArray[i]);
       printMenuLine();
     }
   }
 
+  private void printOnePyramid(Pyramid p) {
+    Integer totalCoins = 0;
+    System.out.printf("Pyramid %s\n", p.name);
+    System.out.printf("\tid: %d\n", p.id);
+
+    // print out all contributors
+    for (int x = 0; x < p.contributors.length; x++) {
+      String currentContributor = p.contributors[x];
+      for (int j = 0; j < pharaohArray.length; j++) {
+        if (pharaohArray[j].hieroglyphic.compareTo(currentContributor) == 0) {
+          totalCoins += pharaohArray[j].contribution;
+           System.out.printf("\tcontributor %d: %s %d gold coins\n", x+1, pharaohArray[j].name, pharaohArray[j].contribution);
+        }
+      }
+    }
+
+    System.out.printf("\ttotal contribution: %d gold coins\n", totalCoins);
+  }
+
   private Boolean executeCommand(Scanner scan, Character command) {
     Boolean success = true;
+    Integer requestedId;
 
     switch (command) {
       case '1':
@@ -166,10 +170,9 @@ public class App {
         break;
       case '2':
         System.out.print("Enter a pharoah id: ");
-        Integer requestedId;
         if (scan.hasNextInt()) {
           requestedId = scan.nextInt();
-          if (requestedId > 171 || requestedId < 0) {
+          if (requestedId >= pharaohArray.length || requestedId < 0) {
             System.out.println("ERROR: Unknown pharaoh");
           } else {
             printMenuLine();
@@ -185,6 +188,24 @@ public class App {
       case '3':
         printAllPyramid();
         break;
+      case '4':
+        System.out.print("Enter a pyramid id: ");
+        if (scan.hasNextInt()) {
+          requestedId = scan.nextInt();
+          if (requestedId >= pyramidArray.length || requestedId < 0) {
+            System.out.println("ERROR: Unknown pyramid");
+          } else {
+            printMenuLine();
+            printOnePyramid(pyramidArray[requestedId]);
+            requestedPyramids.add(pyramidArray[requestedId].name);
+          }
+        } else {
+          System.out.println("Invalid input. Please try again.");
+          System.out.println();
+        }
+        scan.nextLine();
+      
+      break;
         
       case 'q':
         System.out.println("Thank you for using Nassef's Egyptian Pyramid App!");
