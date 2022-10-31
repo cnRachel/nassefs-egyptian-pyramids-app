@@ -11,7 +11,7 @@ public class App {
   protected Pharaoh[] pharaohArray;
   protected Pyramid[] pyramidArray;
 
-  static HashSet<String> requestedPyramids = new HashSet<String>();
+  static HashSet<Pyramid> requestedPyramids = new HashSet<Pyramid>();
 
   public static void main(String[] args) {
     // create and start the app
@@ -197,15 +197,18 @@ public class App {
           } else {
             printMenuLine();
             printOnePyramid(pyramidArray[requestedId]);
-            requestedPyramids.add(pyramidArray[requestedId].name);
+            requestedPyramids.add(pyramidArray[requestedId]);
           }
         } else {
           System.out.println("Invalid input. Please try again.");
           System.out.println();
         }
         scan.nextLine();
-      
-      break;
+        printMenuLine();
+        break;
+      case '5':
+        displayRequestedPyramids();
+        break;
         
       case 'q':
         System.out.println("Thank you for using Nassef's Egyptian Pyramid App!");
@@ -243,4 +246,16 @@ public class App {
     printMenuCommand('q', "Quit");
     printMenuLine();
   }
+
+
+  public static void displayRequestedPyramids() {
+    printMenuLine();
+    System.out.printf("\tId\tName\n");
+    System.out.printf("\t---\t----------------\n");
+    for (Pyramid p : requestedPyramids) {
+      System.out.printf("\t%d\t%s\n", p.id, p.name);
+    }
+    printMenuLine();
+  }
+
 }
