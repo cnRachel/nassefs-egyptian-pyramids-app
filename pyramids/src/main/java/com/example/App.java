@@ -162,50 +162,19 @@ public class App {
 
   private Boolean executeCommand(Scanner scan, Character command) {
     Boolean success = true;
-    Integer requestedId;
 
     switch (command) {
       case '1':
         printAllPharaoh();
         break;
       case '2':
-        System.out.print("Enter a pharoah id: ");
-        if (scan.hasNextInt()) {
-          requestedId = scan.nextInt();
-          if (requestedId >= pharaohArray.length || requestedId < 0) {
-            System.out.println("ERROR: Unknown pharaoh");
-          } else {
-            printMenuLine();
-            pharaohArray[requestedId].print();
-          }
-        } else {
-          System.out.println("Invalid input. Please try again.");
-          System.out.println();
-        }
-        scan.nextLine();
-        printMenuLine();
-        
+        displaySpecificPharaoh(scan);
         break;
       case '3':
         printAllPyramid();
         break;
       case '4':
-        System.out.print("Enter a pyramid id: ");
-        if (scan.hasNextInt()) {
-          requestedId = scan.nextInt();
-          if (requestedId >= pyramidArray.length || requestedId < 0) {
-            System.out.println("ERROR: Unknown pyramid");
-          } else {
-            printMenuLine();
-            printOnePyramid(pyramidArray[requestedId]);
-            requestedPyramids.add(pyramidArray[requestedId]);
-          }
-        } else {
-          System.out.println("Invalid input. Please try again.");
-          System.out.println();
-        }
-        scan.nextLine();
-        printMenuLine();
+        displaySpecificPyramid(scan);
         break;
       case '5':
         displayRequestedPyramids();
@@ -220,6 +189,45 @@ public class App {
     }
 
     return success;
+  }
+
+  private void displaySpecificPharaoh(Scanner scan) {
+    Integer requestedId;
+    System.out.print("Enter a pharoah id: ");
+    if (scan.hasNextInt()) {
+      requestedId = scan.nextInt();
+      if (requestedId >= pharaohArray.length || requestedId < 0) {
+        System.out.println("ERROR: Unknown pharaoh");
+      } else {
+        printMenuLine();
+        pharaohArray[requestedId].print();
+      }
+    } else {
+      System.out.println("Invalid input. Please try again.");
+      System.out.println();
+    }
+    scan.nextLine();
+    printMenuLine();
+  }
+
+  private void displaySpecificPyramid(Scanner scan) {
+    Integer requestedId;
+    System.out.print("Enter a pyramid id: ");
+    if (scan.hasNextInt()) {
+      requestedId = scan.nextInt();
+      if (requestedId >= pyramidArray.length || requestedId < 0) {
+        System.out.println("ERROR: Unknown pyramid");
+      } else {
+        printMenuLine();
+        printOnePyramid(pyramidArray[requestedId]);
+        requestedPyramids.add(pyramidArray[requestedId]);
+      }
+    } else {
+      System.out.println("Invalid input. Please try again.");
+      System.out.println();
+    }
+    scan.nextLine();
+    printMenuLine();
   }
 
   private static void printMenuCommand(Character command, String desc) {
@@ -249,7 +257,7 @@ public class App {
   }
 
 
-  public static void displayRequestedPyramids() {
+  private static void displayRequestedPyramids() {
     printMenuLine();
     System.out.printf("\tId\tName\n");
     System.out.printf("\t---\t----------------\n");
